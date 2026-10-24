@@ -1,0 +1,108 @@
+.logo img{
+    height: 45px;
+    width: 45px;
+    object-fit: contain;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.logo{
+    display: flex;
+}
+
+.head-btns{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.quote-btn {
+    border: 1px solid #bbbb;
+    padding: 15px 20px;
+    border-radius: 4px;
+}
+
+.login{
+    border: 1px solid #bbbb;
+    padding: 15px 20px;
+    border-radius: 4px;
+}
+
+.sect1{
+    display: flex;
+    gap:35px;
+}
+
+.hero{
+    position: relative;
+}
+
+.hero img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.content{
+    position: absolute;
+    /* top: 20%;
+    right: 51%; */
+    color: white;
+}
+
+#abc{
+    display: flex;
+    gap: 30 px;
+}
+
+.bigbox{
+    border: 1px #e8e2e2;
+    width: 100%;
+}
+
+#center{
+    text-align: center;
+}
+
+.bigbox{
+    display: flex;
+    gap : 10px;
+}
+
+.freight-requirement , .quick-shipment{
+    flex: 1;
+}
+
+.capabilities{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+
+#txt{
+    text-align: right;
+}
+
+.left{
+    text-align: left;
+}
+
+.display{
+    display: flex;
+    padding:20px;
+    border: 10 px #eadcdc;
+    border-radius: 8px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* @media (max-width:500px) {
+   
+} */
